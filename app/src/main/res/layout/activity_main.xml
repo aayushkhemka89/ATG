@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true">
+
+    <ticketgenerate.com.example.verizon.automaticticket.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ticketgenerate.com.example.verizon.automaticticket.GraphicOverlay
+            android:id="@+id/faceOverlay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </ticketgenerate.com.example.verizon.automaticticket.CameraSourcePreview>
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <!-- <Button
+         android:id="@+id/button2"
+         android:layout_alignBottom="@+id/faceOverlay"
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+         android:text="Click me" />-->
+
+</LinearLayout>
+
