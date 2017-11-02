@@ -78,14 +78,14 @@ public class ShakeDetector implements SensorEventListener {
                 // Handle the events for which we registered
                 mListener.onShake(mShakeCount);
             }
-        else if (rotation < -40&& gForce < SHAKE_THRESHOLD_GRAVITY1)
-        {
-            mListener.onShake("Right");
-        }
-        else if (rotation > 40 && gForce < SHAKE_THRESHOLD_GRAVITY1)
-        {
-            mListener.onShake("Left");
-        }
+//        else if (rotation < -40&& gForce < SHAKE_THRESHOLD_GRAVITY1)
+//        {
+//            mListener.onShake("Right");
+//        }
+//        else if (rotation > 40 && gForce < SHAKE_THRESHOLD_GRAVITY1)
+//        {
+//            mListener.onShake("Left");
+//        }
     }
 }
 
